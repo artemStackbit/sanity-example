@@ -16,7 +16,7 @@ publishDir: out
 import:
   type: sanity
   contentFile: sanity-export/export.tar.gz
-  sanityStudioPath: studio
+  sanityStudioPath: ./studio
   deployStudio: true
   deployGraphql: false
   projectIdEnvVar: SANITY_PROJECT_ID
