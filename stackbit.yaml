@@ -13,15 +13,15 @@ publishDir: out
 
 # The "import" object defines how Stackbit should provision Sanity when creating
 # a new site from this theme via https://app.stackbit.com/create.
-import:
-  type: sanity
-  contentFile: sanity-export/export.tar.gz
-  sanityStudioPath: ./studio
-  deployStudio: true
-  deployGraphql: false
-  projectIdEnvVar: SANITY_PROJECT_ID
-  datasetEnvVar: SANITY_DATASET
-  tokenEnvVar: SANITY_TOKEN
+#import:
+#  type: sanity
+#  contentFile: sanity-export/export.tar.gz
+#  sanityStudioPath: ./studio
+#  deployStudio: true
+#  deployGraphql: false
+#  projectIdEnvVar: SANITY_PROJECT_ID
+#  datasetEnvVar: SANITY_DATASET
+#  tokenEnvVar: SANITY_TOKEN
 
 # To allow creating and duplicating pages in Stackbit Studio, as well as other
 # advanced editing capabilities, specify which models describe your website
